@@ -43,6 +43,11 @@
     transition: transform ease-in-out .5s;
   }
 
+  &__item-link {
+    text-decoration: none;
+    color: $black;
+  }
+
   &__item-title {
     display: block;
     text-transform: uppercase;
