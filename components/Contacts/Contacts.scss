@@ -1,0 +1,28 @@
+@import "../../scss/_vars.scss";
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+
+  &__link {
+    color: $black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 26px;
+  }
+
+  &__link:hover .contacts__name {
+    opacity: 0.7;
+  }
+ 
+  &__name {
+    font-weight: 700;
+    transition: opacity ease-in-out .3s;    
+  }
+
+  @media (min-width: $w660) {
+    &__link {
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@import "../../scss/_vars.scss";
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: $light-gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: $w660) {
+    &__wrapper {
+      width: 660px;
+      flex-direction: row;
+      height: auto;
+    }
+  }
+
+  @media (min-width: $w1200) {
+    &__wrapper {
+      width: 1000px;
+    }
+  }
+}
