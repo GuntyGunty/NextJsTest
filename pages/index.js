@@ -3,6 +3,7 @@ import Banner from '../components/Banner'
 import Interests from '../components/Interests'
 import Reviews from '../components/Reviews'
 import Footer from '../components/Footer'
+import Button from '../components/Button'
 import Head from 'next/head'
 import '../scss/style.scss';
 
@@ -15,6 +16,7 @@ const Index = () => (
     <Banner />
     <Interests />
     <Reviews />
+    <Button />
     <Footer />
   </div>
 )
